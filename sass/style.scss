@@ -1,0 +1,30 @@
+ 
+// BASE START
+@import "./base/reset";
+@import "./base/mixins";
+@import "./base/variables"; 
+@import "./base/keyframes"; 
+@import "./base/theme-default";
+@import "./base/default-spacing";
+@import "./base/helpers";
+@import "./base/typography";
+@import "./base/colors"; 
+// BASE END
+
+/* 1. NAV MENU */
+@import "./layouts/header";
+@import "./layouts/_menu-sidebar";
+
+/* 2. SCROLL UP */
+@import "./layouts/scrollup";
+
+// COMPONENTS START 
+
+// COMPONENTS END
+ 
+
+// PAGES
+@import "./layouts/pages"; 
+
+
+@import "./layouts/footer"; 
